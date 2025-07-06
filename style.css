@@ -1,0 +1,123 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+header {
+  background-color: #004D40;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.projects {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.projects h2 {
+  margin-bottom: 20px;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #00796B;
+  font-weight: bold;
+}
+
+.donate {
+  background-color: #fff3f3;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.donate-img {
+  max-width: 300px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.donate-btn {
+  display: inline-block;
+  background-color: #D32F2F;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.donate-btn:hover {
+  background-color: #b71c1c;
+}
+
+.about {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #eef7f6;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+.about-btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 18px;
+  background-color: #00796B;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.about-btn:hover {
+  background-color: #004D40;
+}
+
+footer {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
